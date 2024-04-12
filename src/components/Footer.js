@@ -13,6 +13,9 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row className="justify-content-center"> {/* Add justify-content-center class */}
+      <Col md="4" className="footer-copywright">
+          <h3>Copyright © <a href="https://github.com/soumyajit4419/Portfolio" style={{ color: "white" }}>soumyajit4419</a> SB</h3>
+        </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
