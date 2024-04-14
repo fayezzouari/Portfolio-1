@@ -5,18 +5,10 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
   DiJava,
   DiDjango,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
   SiNestjs,
   SiPython,
   SiTensorflow,
@@ -26,7 +18,6 @@ import {
   SiGit,
   SiFlask,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
