@@ -1,6 +1,7 @@
 name = "portfolio-1"
 type = "webpack"
 workers_dev = true
+route = "fayez-zouari.me"
 
 [site]
 bucket = "./build"
@@ -9,3 +10,4 @@ entry-point = "workers-site"
 [env.production]
 name = "portfolio-1"
 workers_dev = false
+route = "fayez-zouari.me"
