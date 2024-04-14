@@ -1,6 +1,7 @@
 name = "portfolio-1"
 type = "webpack"
 workers_dev = true
+account_id = '175b312d511a64df3c0126e3c68e1f16'
 route = "fayez-zouari.me"
 
 [site]
