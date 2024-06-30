@@ -7,6 +7,7 @@ import emotion from "../../Assets/Projects/esp.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/rps.jpg";
 import suicide from "../../Assets/Projects/ai.jpeg";
+import mlguide from "../../Assets/Projects/mlguide.png";
 import bitsOfCode from "../../Assets/Projects/hand.jpeg";
 
 function Projects() {
@@ -72,6 +73,16 @@ function Projects() {
               />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mlguide}
+              isBlog={false}
+              title="ML GUIDE"
+              description="ML Guide is a multi-LLM agent system designed to assist users with their machine learning problems. It takes in a user's ML problem and dataset, performs exploratory data analysis (EDA), extracts relevant research papers from arXiv, searches the web for similar problems using JiraAI Reader tool, and generates code for the best model to solve the user's problem. This system leverages CrewAI for multi-LLM agent orchestration, Streamlit for the web application, Sweetviz for EDA, Jira AI Reader for research extraction, and Serper API for web scraping."
+              ghLink="https://github.com/fayezzouari/ML.GUIDE"
+              />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
